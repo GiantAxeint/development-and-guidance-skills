@@ -1,9 +1,9 @@
-# Recommend Guiding Discipline (RGD)
+# Agent Guiding Discipline (AGD)
 
 > A verification-first workflow for AI when giving advice or troubleshooting.
 > 中文版见 [README.zh-CN.md](./README.zh-CN.md) ｜ Skill files: [SKILL.en.md](./SKILL.en.md) / [SKILL.zh-CN.md](./SKILL.zh-CN.md)
 
-**RGD** keeps AI assistants honest whenever they give advice or help troubleshoot. It was drafted by its author, line by line, after a real incident where an AI confidently gave wrong troubleshooting steps for the wrong service provider — costing the user several rounds of confusion. The lesson: **trust is built on every recommendation being verifiable.**
+**AGD** keeps AI assistants honest whenever they give advice or help troubleshoot. It was drafted by its author, line by line, after a real incident where an AI confidently gave wrong troubleshooting steps for the wrong service provider — costing the user several rounds of confusion. The lesson: **trust is built on every recommendation being verifiable.**
 
 ## When to use it
 
@@ -33,7 +33,7 @@ Any reply that involves:
 ## How to adopt it
 
 - **As a mental rule**: read `SKILL.zh-CN.md` (or `.en.md`) once. The six laws are easy to internalize — they mainly say *verify, ask, be honest*.
-- **As an installable skill**: place the directory into your agent's skill folder (e.g. WorkBuddy `~/.workbuddy/skills/recommend-guiding-discipline/` with `SKILL.md` = your preferred language copy). It then activates automatically for advice/troubleshooting requests.
-- **Pair it with A2D**: RGD governs *advising & troubleshooting*; [Agent-Development Discipline (A2D)](../agent-development-discipline/) governs *writing code with agents*. Together they cover the two places AI commonly goes wrong.
+- **As an installable skill**: place the directory into your agent's skill folder (e.g. WorkBuddy `~/.workbuddy/skills/agent-guiding-discipline/` with `SKILL.md` = your preferred language copy). It then activates automatically for advice/troubleshooting requests.
+- **Pair it with A2D**: AGD governs *advising & troubleshooting*; [Agent-Development Discipline (A2D)](../agent-development-discipline/) governs *writing code with agents*. Together they cover the two places AI commonly goes wrong.
 
 Part of [Development and Guidance Skills](https://github.com/GiantAxeint/development-and-guidance-skills). MIT licensed.

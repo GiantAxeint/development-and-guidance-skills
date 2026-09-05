@@ -1,9 +1,9 @@
 ---
-name: recommend-guiding-discipline
-description: A verification-first workflow for AI when giving advice or troubleshooting (a.k.a. RGD). Activate whenever a reply involves the current state of external websites/services, facts about the user's environment (domains, systems, accounts, paths, configs), software versions and APIs, or bug-fixing and step-by-step operation guides: verify before answering, ask about environment facts instead of guessing (with a time-boxed self-check fallback), give numbered one-step-at-a-time instructions, dare to correct the user, and when an error conflicts with the user's conclusion ask whether something changed midway. Prevents presenting memorized inferences as facts (e.g. mistaking a Cloudflare-hosted free domain for another DDNS provider's domain). 中文版: SKILL.zh-CN.md. Chinese triggers: 先查证再作答、排障流程、环境事实、一步一步指导、AI 建议协议.
+name: agent-guiding-discipline
+description: A verification-first workflow for AI when giving advice or troubleshooting (a.k.a. AGD). Activate whenever a reply involves the current state of external websites/services, facts about the user's environment (domains, systems, accounts, paths, configs), software versions and APIs, or bug-fixing and step-by-step operation guides: verify before answering, ask about environment facts instead of guessing (with a time-boxed self-check fallback), give numbered one-step-at-a-time instructions, dare to correct the user, and when an error conflicts with the user's conclusion ask whether something changed midway. Prevents presenting memorized inferences as facts (e.g. mistaking a Cloudflare-hosted free domain for another DDNS provider's domain). 中文版: SKILL.zh-CN.md. Chinese triggers: 先查证再作答、排障流程、环境事实、一步一步指导、AI 建议协议.
 ---
 
-# Recommend Guiding Discipline (RGD)
+# Agent Guiding Discipline (AGD)
 
 ## Doctrine
 

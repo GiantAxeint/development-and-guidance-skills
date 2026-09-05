@@ -5,7 +5,7 @@
 
 This repository collects two disciplines that were forged in real projects — not theory. Each one exists because a specific failure mode cost real time and rework, and each was refined line-by-line by its author through daily use with Claude Code, OpenCode, and other agent harnesses.
 
-| | [Agent-Development Discipline (A2D)](./agent-development-discipline/) | [Recommend Guiding Discipline (RGD)](./recommend-guiding-discipline/) |
+| | [Agent-Development Discipline (A2D)](./agent-development-discipline/) | [Agent Guiding Discipline (AGD)](./agent-guiding-discipline/) |
 |---|---|---|
 | **Governs** | Writing code *with* AI agents | AI giving advice / troubleshooting |
 | **The problem** | Broken environments, hallucinated versions, unreviewed code, agents stepping on each other | Confident wrong answers — describing a website from memory, inferring environment facts from a domain name, dumping a long chain of steps |
@@ -26,17 +26,17 @@ development-and-guidance-skills/
 │   └── references/
 │       ├── project-convention-template.en.md / .zh-CN.md   AGENTS.md template
 │       └── block-handoff-template.en.md / .zh-CN.md        handoff-doc template
-└── recommend-guiding-discipline/  RGD — advice & troubleshooting (six laws)
+└── agent-guiding-discipline/  AGD — advice & troubleshooting (six laws)
     ├── SKILL.en.md  SKILL.zh-CN.md
     ├── README.md  README.zh-CN.md
     └── references/
-        └── case-history.en.md / .zh-CN.md   anonymized real incident that motivated RGD
+        └── case-history.en.md / .zh-CN.md   anonymized real incident that motivated AGD
 ```
 
 ## Quick start
 
 1. **A2D — writing code with agents**: read [`agent-development-discipline/SKILL.zh-CN.md`](./agent-development-discipline/SKILL.zh-CN.md) (or `.en.md`), and for each new project copy [`project-convention-template`](./agent-development-discipline/references/) into the project root as `AGENTS.md` / `CLAUDE.md`.
-2. **RGD — advice & troubleshooting**: read [`recommend-guiding-discipline/SKILL.zh-CN.md`](./recommend-guiding-discipline/SKILL.zh-CN.md) (or `.en.md`) once — then verify, ask, and be honest. Read the [`case-history`](./recommend-guiding-discipline/references/) to see why each law exists.
+2. **AGD — advice & troubleshooting**: read [`agent-guiding-discipline/SKILL.zh-CN.md`](./agent-guiding-discipline/SKILL.zh-CN.md) (or `.en.md`) once — then verify, ask, and be honest. Read the [`case-history`](./agent-guiding-discipline/references/) to see why each law exists.
 
 ### Install as agent skills (optional)
 

@@ -5,7 +5,7 @@
 
 这个仓库收录两套纪律，它们诞生于真实项目而非理论——每一套都因为某种真实翻车付出了时间与返工成本，并由作者在与 Claude Code、OpenCode 等 agent 的日常协作中逐句打磨定稿。
 
-| | [Agent 开发纪律（A2D）](./agent-development-discipline/) | [建议引导纪律（RGD）](./recommend-guiding-discipline/) |
+| | [Agent 开发纪律（A2D）](./agent-development-discipline/) | [Agent 引导纪律（AGD）](./agent-guiding-discipline/) |
 |---|---|---|
 | **管什么** | 用 AI agent 写代码 | AI 给建议 / 排障 |
 | **要解决的问题** | 环境错乱、版本幻觉、代码无人复核、多 agent 互相踩脚 | 自信地答错——凭记忆描述网站、看域名猜环境事实、一次性倾倒一长串步骤 |
@@ -26,17 +26,17 @@ development-and-guidance-skills/
 │   └── references/
 │       ├── project-convention-template.zh-CN.md / .en.md   AGENTS.md 模板
 │       └── block-handoff-template.zh-CN.md / .en.md        交接文档模板
-└── recommend-guiding-discipline/  RGD — 建议与排障纪律（六律）
+└── agent-guiding-discipline/  AGD — 建议与排障纪律（六律）
     ├── SKILL.zh-CN.md  SKILL.en.md
     ├── README.zh-CN.md  README.md
     └── references/
-        └── case-history.zh-CN.md / .en.md   促成 RGD 的真实事故复盘（已脱敏）
+        └── case-history.zh-CN.md / .en.md   促成 AGD 的真实事故复盘（已脱敏）
 ```
 
 ## 快速开始
 
 1. **A2D——用 agent 写代码**：读 [`agent-development-discipline/SKILL.zh-CN.md`](./agent-development-discipline/SKILL.zh-CN.md)（或 `.en.md`）；每个新项目把 [`project-convention-template`](./agent-development-discipline/references/) 复制为项目根 `AGENTS.md` / `CLAUDE.md` 并填真实环境值。
-2. **RGD——建议与排障**：读一遍 [`recommend-guiding-discipline/SKILL.zh-CN.md`](./recommend-guiding-discipline/SKILL.zh-CN.md)（或 `.en.md`）——核心就三个词：查证、询问、诚实。再读 [`case-history`](./recommend-guiding-discipline/references/) 理解每条铁律的由来。
+2. **AGD——建议与排障**：读一遍 [`agent-guiding-discipline/SKILL.zh-CN.md`](./agent-guiding-discipline/SKILL.zh-CN.md)（或 `.en.md`）——核心就三个词：查证、询问、诚实。再读 [`case-history`](./agent-guiding-discipline/references/) 理解每条铁律的由来。
 
 ### 安装为 agent 技能（可选）
 

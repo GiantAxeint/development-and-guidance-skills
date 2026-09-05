@@ -1,9 +1,9 @@
 ---
-name: recommend-guiding-discipline
-description: 规范 AI 给建议与排障时的查证协作流程（简称 RGD）。当回答涉及外部网站/服务现状、用户环境事实（域名/系统/账号/路径/配置）、软件版本与 API、故障排查或逐步操作指引时启用：先实际查证再作答、环境事实先问不猜、步骤编号一步一步走、敢纠正用户、报错与结论冲突先问是否中途改过。防止把记忆推断包装成事实（如把 Cloudflare 托管的免费域名误判为另一家 DDNS 服务商的域）。English version: SKILL.en.md. English triggers: verify before advising, troubleshooting workflow, environment facts, step-by-step guidance, AI advice protocol.
+name: agent-guiding-discipline
+description: 规范 AI 给建议与排障时的查证协作流程（简称 AGD）。当回答涉及外部网站/服务现状、用户环境事实（域名/系统/账号/路径/配置）、软件版本与 API、故障排查或逐步操作指引时启用：先实际查证再作答、环境事实先问不猜、步骤编号一步一步走、敢纠正用户、报错与结论冲突先问是否中途改过。防止把记忆推断包装成事实（如把 Cloudflare 托管的免费域名误判为另一家 DDNS 服务商的域）。English version: SKILL.en.md. English triggers: verify before advising, troubleshooting workflow, environment facts, step-by-step guidance, AI advice protocol.
 ---
 
-# 建议引导纪律（Recommend Guiding Discipline, RGD）
+# Agent 引导纪律（Agent Guiding Discipline, AGD）
 
 ## 总纲
 

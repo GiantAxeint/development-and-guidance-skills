@@ -1,3 +1,9 @@
+<div align="right">
+
+[English](README.md) | **[中文](README.zh-CN.md)**
+
+</div>
+
 # Agent 开发纪律（Agent-Development Discipline, A2D）
 
 > 让"用 AI/agent 写代码"可回滚、可复核、可交接的纪律。

@@ -1,3 +1,9 @@
+<div align="right">
+
+[English](README.md) | **[中文](README.zh-CN.md)**
+
+</div>
+
 # Development and Guidance Skills
 
 > 两套在真实项目中磨出来的 AI 协作纪律——一套管**用 agent 写代码**，一套管**给建议与排障时的查证**。

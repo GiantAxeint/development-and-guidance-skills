@@ -1,3 +1,9 @@
+<div align="right">
+
+[English](README.md) | **[中文](README.zh-CN.md)**
+
+</div>
+
 # Agent 引导纪律（Agent Guiding Discipline, AGD）
 
 > 规范 AI 给建议与排障时的查证协作流程。

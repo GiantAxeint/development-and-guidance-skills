@@ -1,3 +1,9 @@
+<div align="right">
+
+**[English](README.md)** | [中文](README.zh-CN.md)
+
+</div>
+
 # Agent Guiding Discipline (AGD)
 
 > A verification-first workflow for AI when giving advice or troubleshooting.

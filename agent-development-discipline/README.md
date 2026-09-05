@@ -1,3 +1,9 @@
+<div align="right">
+
+**[English](README.md)** | [中文](README.zh-CN.md)
+
+</div>
+
 # Agent-Development Discipline (A2D)
 
 > Rules that keep AI/agent-driven coding rollback-able, reviewable, and handoff-able.

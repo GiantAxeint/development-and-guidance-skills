@@ -1,3 +1,9 @@
+<div align="right">
+
+**[English](README.md)** | [中文](README.zh-CN.md)
+
+</div>
+
 # Development and Guidance Skills
 
 > Two battle-tested disciplines for working with AI — one for **writing code** with agents, one for **giving advice & troubleshooting** honestly.
